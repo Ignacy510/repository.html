@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+ <head>
+		<title>Rowery</title>
+		<meta charset="utf-8">
+		<base href=".">
+ 
+ <style>
+     img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ </style>
+ <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+ </style>
+ </head>
+ <body style="background-color:#ffee00">
+ <!--To jest strona o rowerach-->
+	<header>
+        <h1 align="center"><strong>Rowery</strong></h1>
+        <p align="center"><i>Rowery to jedna z moich pasji</i></p>
+	</header>
+	<nav align="center">
+		<a href="https://pl.wikipedia.org/wiki/Rower">Czym jest rower?</a><br>
+		<a href="https://github.com/Ignacy510/html.pl.git">Strona jest też na GitHubie!</a>
+	</nav>
+		<article>
+            <h2 align="center"><sub>Na</sub> <sup>jakim</sup><sub> rowerze </sub><sup>jeżdżę?</sup> </h2>
+            <p align="center">Typem kolarstwa jaki uprawiam jest kolarstwo górskie MTB.</p align="center">
+            <p align="center">Obecnie poruszam się szarym Jamisie Dakarze XC z 2017 roku.</p align="center">
+            <img src="17_dakarxc.jpg" alt="rower" width="750" height="439" class="center">
+            <h2><strong>Zalety Kolarstwa</strong></h2>
+            <p align="left">Kolarstwo jest bardzo zdrowym sportem i <br>ma bardo pozytywny wpływ na różne <br>aspekty naszego ciała:</p>
+            <table>
+                <tr>
+                        <th>Powoduje poprawę samopoczucia:<br>Jeżdżąc na rowerze mamy<br>bardziej dotleniony mózg<br>co wpływa pozytywnie na<br> nasze samopoczucie</th>
+                </tr>
+                <tr>
+                        <th>Jest dobre dla środowiska</th>     
+                </tr>
+                <tr>
+                      <th>Można jeść wszystko:<br>podczas jazdy na rowerze<br>spalamy bzrdzo dużo kalorii</th>        
+                </tr>
+                <tr>
+                        <th>Zwiększa wydajność serca i<br>zmniejsza ryzyko<br>występowania chorób<br>układu krążenia</th>
+                </tr>
+            </table>
+            <p>To jest jedynie mały wycinek ze wszystkich<br>pozytywnych skutów kolarstwa.</p>
+        
+        <h3>Chcesz wiedzieć więcej o kolarstwie?</h3>
+        <details>
+                <summary>Tu jest kilka przydatnych linków!</summary>
+                <ul>
+                        <li><a href="https://roweroweporady.pl">Rowerowe Porady</a></li>
+                        <li><a href="http://polskanarowery.sport.pl/msrowery/56,105126,17726178,11_zalet_jazdy_na_rowerze.html">11 zalet jazdy na rowerze</a></li>
+                        <li><a href="https://www.jamisbikes.com/usa/index.html">Jamis Bikes</a></li>
+                        <li><a href="https://www.shimano.com/en/">Shimano</a></li>
+                        <li><a href="https://www.sram.com/en/rockshox">ROCKSHOX</a></li>
+                </ul>
+        </details>
+        </article>
+        <footer>
+                <p align="center"><bdo style="font-size:25px;"><b><ins>Przesiadajmy</ins> się <del>do samochodów</del> na rowery!</b></bdo></p>
+                <adress>
+                Warszawa ul. Wiśniowa 56 <time>9:00</time>
+                </adress>
+        </footer>
+ </body>
+</html>
